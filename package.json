@@ -3,23 +3,41 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.7"
+    "@aws-amplify/ui-react": "^6.9.1",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.5",
+    "@mui/material": "^6.4.5",
+    "@reduxjs/toolkit": "^2.5.1",
+    "@types/js-cookie": "^3.0.6",
+    "aws-amplify": "^6.13.0",
+    "axios": "^1.7.9",
+    "clsx": "^2.1.1",
+    "cpy-cli": "^5.0.0",
+    "formik": "^2.4.6",
+    "js-cookie": "^3.0.5",
+    "lodash": "^4.17.21",
+    "move-cli": "^2.0.0",
+    "next": "15.1.7",
+    "nextjs-progressbar": "^0.0.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.2.0",
+    "yup": "^1.6.1"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.1.7",
-    "@eslint/eslintrc": "^3"
+    "typescript": "^5"
   }
 }
