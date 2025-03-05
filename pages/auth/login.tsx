@@ -4,13 +4,3 @@ import { LocalSessionType } from "@/core/types/common";
 // name the page according to its purpose
 const LoginPage = ({ __LOCALSESSION }: LocalSessionType) => <Login __LOCALSESSION={__LOCALSESSION} />;
 export default LoginPage;
-
-export async function getServerSideProps() {
-  let data = {};
-
-  return {
-    props: {
-      data,
-    },
-  };
-}
