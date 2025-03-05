@@ -24,12 +24,12 @@ const DEFApp = ({ Component, pageProps }: AppProps) => {
   useEffect(() => {
     console.log(__LOCALSESSION);
     if (isUndefined(__LOCALSESSION) && router.pathname !== "/auth/login") {
-      // window.location.href = "/auth/login";
+      window.location.href = "/auth/login";
       return;
     }
 
     if (!isUndefined(__LOCALSESSION) && router.pathname === "/auth/login") {
-      // window.location.href = "/";
+      window.location.href = "/";
       return;
     }
 
